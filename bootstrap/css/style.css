@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topo{
+    padding: 10px 0;
+    position: relative;
+}
+
+.topo .logo{
+    text-transform: uppercase;
+}
+
+
+.topo a{ 
+    color: #111;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}  
+.topo a:hover{
+    color:#DCDCDC;
+    font-weight: bold;
+}
+
+
+.banner-topo{
+   background-color: #eee;
+}
+.banner-topo .img-destaque{
+    padding: 20px 0;
+    max-width: 355px;
+}
+.banner-topo h1{
+    color: #111;
+    font-family: 'Playfair Display', serif;
+}
+.cor-tema{
+    background-color: rgb(192, 169, 141);
+}
+.cor{
+    color: #111;
+    text-transform: lowercase;
+}
+.cor h4,a:link{
+    text-decoration: none;
+    
+}
+.cor h4,a:hover{
+    text-align: center;
+}
+
+.destaque .img-ajuste{
+    padding: 20px 0;
+    max-width: 250px;
+    
+}
+
+.destaque p,h4{
+    text-align: center;
+    text-transform:lowercase;
+    font-size: 20px;
+}
+
+.destaque h3{
+    color: #111;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.form{
+    background-color:#DCDCDC;
+    
+}
+.form h3{
+    padding: 20px 0;
+    color: #111;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.rodape{
+    text-align:left;
+    align-items: left;
+   
+}
+.rodape h4{
+    text-transform: capitalize;
+    text-align: left;
+}
+
+

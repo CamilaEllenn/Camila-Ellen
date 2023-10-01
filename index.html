@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init('Q0R3lFfhR017qkvGX')
+    </script>
+    <title>Camila Ellen </title>
+</head>
+<body>
+    <header class=" topo shadow-sm" id="topo">
+        <div class="container">
+            <div class="row ">
+                <div class="col-4 logo ">
+                    <h3>CE</h3>
+                </div>
+                <div class="col-12 col-md-8  col-sm-9 ">
+
+                   <nav class="nav justify-content-end">
+                    <a class="nav-link" href="#sobre">sobre</a>
+                    <a class="nav-link" href="#projetos">projetos</a>
+                    <a class="nav-link" href="Currículo-Camila Ellen (4).pdf" target="_blank">currículo</a>
+                    <a class="nav-link" href="#contato">contato</a>
+                   </nav>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner-topo" id="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 order-2 order-sm-1 col-md-6">
+                        <img src="imagens/tech.jpeg" class=" img-destaque d-block mx-auto mt-3" alt="Camila ELLen">
+                    </div>
+                    <div class="col-12 order-sm-2 col-sm-6 col-md-6 align-self-center">
+                        <h1>Quem Sou?</h1>
+                        <p>Olá, sou Camila Ellen, uma bahiana que descobriu o mundo das páginas Web, entrou no ElasNaTech e acabou encontrando uma verdadeira familía, rimos, choramos, nos abraçamos virtualmente, mas principalmente aprendemos muito. Desde o momento em que mergulhei no mundo do desenvolvimento web, minha missão tem sido  me aperfeiçoar cada vez mais para criar soluções que não apenas funcionem, mas também encantem. <br><br>
+                        Para isso tenho me dedicado em cada proposta, e projeto que chegam a mim como um obstaculo a ser vencido. Pois Cada site que construo conta uma história única, uma história de desafio, expectativas e visões superadas, sendo por fim transformadas em realidade virtual. Convido você a explorar meu portfólio, onde cada linha de código é uma expressão do meu compromisso em criar experiências online exclusivas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destaque" id="projetos">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3>Projetos</h3>
+                    </div>
+                    <div class="col-12  col-sm-4 text-center align-items-center ">
+                        <a href="https://camilaellenn.github.io/ElasNaTechCardapio/"  class=" cor"target="_blank" >
+                         <img src="imagens/massas.png" class="d-block mx-auto img-ajuste" alt="caradápio básico">
+                            <h4> Massas </h4>
+                            <p>Criamos nosso prórpio cardápio, clique e acesse o projeto</p>
+                            <a class="btn btn-outline-dark rounded mt-2 mb-2 text-center align-items-center  " href="https://github.com/CamilaEllenn/ElasNaTechCardapio" target="_blank" role="button">repositório</a>
+                        </a>
+                    </div> 
+                    <div class="col-12 col-sm-4  text-center align-items-center">
+                        <a href="https://camilaellenn.github.io/MulheresInspiradoras/" class="cor"target="_blank">
+                         <img src="imagens/mulheres.png" class="d-block mx-auto img-ajuste" alt="Mulheres">
+                            <h4>Mulheres inspiradoras</h4>
+                            <p>Essas mulheres são incirveis, clique e acesse o projeto</p>
+                            <a class="btn btn-outline-dark rounded mt-2 mb-2 text-center align-items-center " href="https://github.com/CamilaEllenn/MulheresInspiradoras" target="_blank" role="button">repositório</a>
+                        </a>
+                    </div>
+                    <div class="col-12  col-sm-4 text-center align-items-center">
+                        <a href="https://camilaellenn.github.io/ProjetoElasNaTechODS_mobile/" class="cor" target="_blank">
+                         <img src="imagens/ods.png" class="d-block mx-auto img-ajuste" alt="projeto ods">
+                            <h4>Projeto ODS</h4>
+                            <p>como melhorar o mundo, clique aqui e acesse o projeto</p>
+                            <a class="btn btn-outline-dark rounded mt-2 mb-2  " href="https://github.com/CamilaEllenn/ProjetoElasNaTechODS_mobile" target="_blank" role="button">repositório</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form" id="contato">
+           <div class="container">
+            <div class="col-12 text-center">
+                <h3>Entre em contato</h3>
+            </div>
+             <div class="row  justify-content-center mt-3">
+                <div class="col-6">
+                    <form id="emailForm">
+                        <div class="row">
+                            <label class="form-label " for="name">Nome</label>
+                            <div class="col-12">
+                                <input class="form-control" type="text" name="name" id="name" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                              <label class="form-label "for="email">E-mail</label>
+                            <div class="col-12">
+                                <input class="form-control" type="email" name="email" id="email" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="form-label" for="message">Mensagem</label>
+                            <div class="col-12">
+                                <textarea class="form-control" name="message" id="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-11 text-end mt-5 mb-5 ">
+                                <input class="btn btn-outline-dark " type="submit" value="Enviar" id="button">
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+             </div>
+           </div>
+    </main>
+ 
+   <footer class="rodape">
+    <div class="container">
+        <div class="row">
+         <div class="col-12 col-sm-4 flex-column mt-5 mb-5">
+                <h4>Agradecimentos</h4>
+            <p> ElasNatech - JA Brasil - CCR <br>
+                Trabalho desenvolvido para <br> nota final do curso<br>
+                Imagens do arquivo pessoal
+            </p>
+            </div>
+            <div class="col-12 col-sm-4 mt-5 mb-5 ">
+                <h4>Contatos</h4>
+                <a href="https://www.linkedin.com/in/camila-ellen-paix%C3%A3o-/" target="_blank">Linkedin</a><br>
+                <a href="https://github.com/CamilaEllenn" target="_blank">Github</a>
+               
+            </div>
+            <div class="col-12 col-sm-4 mt-5 mb-5">
+                <h4>Direitos</h4>
+            <p>&copy; Camila Ellen Silva Paixão</p>
+            <a class="btn btn-outline-secondary rounded-circle" href="#topo" role="button">Inicio</a>
+
+        </div>
+        
+    </div>
+   </footer>
+</body>
+</html>
